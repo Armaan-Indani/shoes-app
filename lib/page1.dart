@@ -11,16 +11,15 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Shoe Catalog"),
-      ),
+        appBar: AppBar(
+          title: Text("Shoe Catalog"),
+        ),
         body: Center(
           child: Column(
             children: [
               Container(
                 height: 150,
-                child:
-                Row(
+                child: Row(
                   children: [
                     Expanded(
                       child: Image(
@@ -28,20 +27,26 @@ class FirstPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.green,
+                      ),
                       child: Text("See More Info"),
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Shoe1Page()));
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Shoe1Page()));
                       },
                     ),
-                    SizedBox(width: 50,)
+                    SizedBox(
+                      width: 50,
+                    )
                   ],
                 ),
               ),
-
               Container(
                 height: 150,
-                child:
-                Row(
+                child: Row(
                   children: [
                     Expanded(
                       child: Image(
@@ -49,20 +54,26 @@ class FirstPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.red,
+                      ),
                       child: Text("See More Info"),
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Shoe2Page()));
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Shoe2Page()));
                       },
                     ),
-                    SizedBox(width: 50,)
+                    SizedBox(
+                      width: 50,
+                    )
                   ],
                 ),
               ),
-
               Container(
                 height: 150,
-                child:
-                Row(
+                child: Row(
                   children: [
                     Expanded(
                       child: Image(
@@ -70,20 +81,26 @@ class FirstPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.lightGreenAccent,
+                      ),
                       child: Text("See More Info"),
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Shoe3Page()));
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Shoe3Page()));
                       },
                     ),
-                    SizedBox(width: 50,)
+                    SizedBox(
+                      width: 50,
+                    )
                   ],
                 ),
               ),
-
               Container(
                 height: 150,
-                child:
-                Row(
+                child: Row(
                   children: [
                     Expanded(
                       child: Image(
@@ -91,20 +108,26 @@ class FirstPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.blueAccent,
+                      ),
                       child: Text("See More Info"),
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Shoe4Page()));
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Shoe4Page()));
                       },
                     ),
-                    SizedBox(width: 50,)
+                    SizedBox(
+                      width: 50,
+                    )
                   ],
                 ),
               ),
-
               Container(
                 height: 150,
-                child:
-                Row(
+                child: Row(
                   children: [
                     Expanded(
                       child: Image(
@@ -112,20 +135,25 @@ class FirstPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.black,
+                      ),
                       child: Text("See More Info"),
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>Shoe5Page()));
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Shoe5Page()));
                       },
                     ),
-                    SizedBox(width: 50,)
+                    SizedBox(
+                      width: 50,
+                    )
                   ],
                 ),
               ),
-
-
             ],
           ),
-        )
-    );
+        ));
   }
 }
