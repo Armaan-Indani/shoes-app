@@ -8,14 +8,13 @@ class Shoe3Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.amber,
-        appBar: AppBar(
-            backgroundColor: Colors.lightGreenAccent, title: Text("Shoe 3")),
+        appBar: AppBar(backgroundColor: Colors.black38, title: Text("Shoe 3")),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image(
-              image: AssetImage('images/shoe2.jpg'),
+              image: AssetImage('images/shoe3.jpg'),
             ),
             Text("Sporty Sneakers"),
             Text("Rs. 14999/-"),

@@ -8,8 +8,7 @@ class Shoe2Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.amber,
-        appBar:
-            AppBar(backgroundColor: Colors.redAccent, title: Text("Shoe 2")),
+        appBar: AppBar(backgroundColor: Colors.black38, title: Text("Shoe 2")),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

@@ -20,7 +20,7 @@ class FirstPage extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                height: 150,
+                height: 100,
                 child: Row(
                   children: [
                     Expanded(
@@ -47,7 +47,7 @@ class FirstPage extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 150,
+                height: 100,
                 child: Row(
                   children: [
                     Expanded(
@@ -74,7 +74,7 @@ class FirstPage extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 150,
+                height: 100,
                 child: Row(
                   children: [
                     Expanded(
@@ -101,7 +101,7 @@ class FirstPage extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 150,
+                height: 100,
                 child: Row(
                   children: [
                     Expanded(
@@ -128,7 +128,7 @@ class FirstPage extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 150,
+                height: 100,
                 child: Row(
                   children: [
                     Expanded(
