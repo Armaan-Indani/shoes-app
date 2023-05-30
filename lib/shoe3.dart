@@ -8,22 +8,25 @@ class Shoe3Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.amber,
-        appBar: AppBar(backgroundColor: Colors.black38, title: Text("Shoe 3")),
+        appBar: AppBar(
+            backgroundColor: Colors.black38, title: const Text("Shoe 3")),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(
+            const Image(
               image: AssetImage('images/shoe3.jpg'),
             ),
-            Text("Sporty Sneakers"),
-            Text("Rs. 14999/-"),
+            const Text("Sporty Sneakers"),
+            const Text("Rs. 14999/-"),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => FirstPage()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const FirstPage()));
                 },
-                child: Text("Return"))
+                child: const Text("Return"))
           ],
         )));
   }

@@ -14,7 +14,7 @@ class FirstPage extends StatelessWidget {
         backgroundColor: Colors.amber,
         appBar: AppBar(
           backgroundColor: Colors.black38,
-          title: Text("Shoe Catalog"),
+          title: const Text("Shoe Catalog"),
         ),
         body: Center(
           child: Column(
@@ -23,7 +23,7 @@ class FirstPage extends StatelessWidget {
                 height: 100,
                 child: Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Image(
                         image: AssetImage('images/shoe1.jpg'),
                       ),
@@ -32,15 +32,15 @@ class FirstPage extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.green,
                       ),
-                      child: Text("See More Info"),
+                      child: const Text("See More Info"),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Shoe1Page()));
+                                builder: (context) => const Shoe1Page()));
                       },
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 50,
                     )
                   ],
@@ -50,7 +50,7 @@ class FirstPage extends StatelessWidget {
                 height: 100,
                 child: Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Image(
                         image: AssetImage('images/shoe2.jpg'),
                       ),
@@ -59,15 +59,15 @@ class FirstPage extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.red,
                       ),
-                      child: Text("See More Info"),
+                      child: const Text("See More Info"),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Shoe2Page()));
+                                builder: (context) => const Shoe2Page()));
                       },
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 50,
                     )
                   ],
@@ -77,7 +77,7 @@ class FirstPage extends StatelessWidget {
                 height: 100,
                 child: Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Image(
                         image: AssetImage('images/shoe3.jpg'),
                       ),
@@ -86,15 +86,15 @@ class FirstPage extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.lightGreenAccent,
                       ),
-                      child: Text("See More Info"),
+                      child: const Text("See More Info"),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Shoe3Page()));
+                                builder: (context) => const Shoe3Page()));
                       },
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 50,
                     )
                   ],
@@ -104,7 +104,7 @@ class FirstPage extends StatelessWidget {
                 height: 100,
                 child: Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Image(
                         image: AssetImage('images/shoe4.jpg'),
                       ),
@@ -113,15 +113,15 @@ class FirstPage extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.blueAccent,
                       ),
-                      child: Text("See More Info"),
+                      child: const Text("See More Info"),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Shoe4Page()));
+                                builder: (context) => const Shoe4Page()));
                       },
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 50,
                     )
                   ],
@@ -131,7 +131,7 @@ class FirstPage extends StatelessWidget {
                 height: 100,
                 child: Row(
                   children: [
-                    Expanded(
+                    const Expanded(
                       child: Image(
                         image: AssetImage('images/shoe5.jpg'),
                       ),
@@ -140,15 +140,15 @@ class FirstPage extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.black,
                       ),
-                      child: Text("See More Info"),
+                      child: const Text("See More Info"),
                       onPressed: () {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Shoe5Page()));
+                                builder: (context) => const Shoe5Page()));
                       },
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 50,
                     )
                   ],
