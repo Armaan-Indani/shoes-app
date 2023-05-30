@@ -9,7 +9,8 @@ class Shoe5Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Shoe 5")),
+        backgroundColor: Colors.amber,
+        appBar: AppBar(backgroundColor: Colors.black, title: Text("Shoe 5")),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

@@ -11,7 +11,9 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.amber,
         appBar: AppBar(
+          backgroundColor: Colors.black38,
           title: Text("Shoe Catalog"),
         ),
         body: Center(
